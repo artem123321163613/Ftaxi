@@ -1,0 +1,35 @@
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+}
+@media (max-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 1.2rem;
+  }
+}
+.block{
+  background-color: pink;
+  text-align: center;
+  width: 26vw;
+  height: 200px;
+  border-radius: 10px;
+}
+.block2{
+  background-color: rgb(197, 174, 174);
+  text-align: center;
+  width: 26vw;
+  height: 660px;
+  border-radius: 10px;
+  margin-top: 10%;
+}
+.column{
+  column-count: 2;
+  flex: wrap;
+}
+body{
+  overflow: hidden;
+}
+p{
+  font-size: 3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
